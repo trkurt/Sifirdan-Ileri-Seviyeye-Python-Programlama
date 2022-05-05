@@ -4,7 +4,7 @@ from PyQt5 import QtWidgets
 
 def Pencere():
 
-    app = QtWidgets.QApplication(sys.argv)
+    app = QtWidgets.QApplication(sys.argv)   #her programda olması gerekir
 
     pencere = QtWidgets.QWidget()
 
@@ -12,7 +12,7 @@ def Pencere():
 
     pencere.show()
 
-    sys.exit(app.exec_())
+    sys.exit(app.exec_())    #her programda olması gerekir
 
 
 Pencere()
